@@ -13,6 +13,11 @@
 		1663400D1A9B0F5C004AD4A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1663400C1A9B0F5C004AD4A1 /* Images.xcassets */; };
 		166340101A9B0F5C004AD4A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1663400E1A9B0F5C004AD4A1 /* LaunchScreen.xib */; };
 		1663401C1A9B0F5C004AD4A1 /* RevivalxTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1663401B1A9B0F5C004AD4A1 /* RevivalxTableViewTests.swift */; };
+		166340261A9B1AAA004AD4A1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166340251A9B1AAA004AD4A1 /* SwiftyJSON.swift */; };
+		166340431A9B1B22004AD4A1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1663402F1A9B1AF1004AD4A1 /* Alamofire.framework */; };
+		166340441A9B1B22004AD4A1 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1663402F1A9B1AF1004AD4A1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		166340481A9B1B2A004AD4A1 /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1663403E1A9B1AFB004AD4A1 /* Haneke.framework */; };
+		166340491A9B1B2A004AD4A1 /* Haneke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1663403E1A9B1AFB004AD4A1 /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +28,85 @@
 			remoteGlobalIDString = 16633FFF1A9B0F5C004AD4A1;
 			remoteInfo = RevivalxTableView;
 		};
+		1663402E1A9B1AF1004AD4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166340271A9B1AF1004AD4A1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		166340301A9B1AF1004AD4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166340271A9B1AF1004AD4A1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		166340321A9B1AF1004AD4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166340271A9B1AF1004AD4A1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		166340341A9B1AF1004AD4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166340271A9B1AF1004AD4A1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		1663403D1A9B1AFB004AD4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166340361A9B1AFB004AD4A1 /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9561980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
+		1663403F1A9B1AFB004AD4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166340361A9B1AFB004AD4A1 /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9611980418C00CD0F4C;
+			remoteInfo = HanekeTests;
+		};
+		166340411A9B1AFB004AD4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166340361A9B1AFB004AD4A1 /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0026E9A19C9BFBC004DE0C6;
+			remoteInfo = HanekeDemo;
+		};
+		166340451A9B1B23004AD4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166340271A9B1AF1004AD4A1 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		1663404A1A9B1B2A004AD4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166340361A9B1AFB004AD4A1 /* Haneke.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A095C9551980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		166340471A9B1B23004AD4A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				166340491A9B1B2A004AD4A1 /* Haneke.framework in Embed Frameworks */,
+				166340441A9B1B22004AD4A1 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		166340001A9B0F5C004AD4A1 /* RevivalxTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevivalxTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +119,9 @@
 		166340151A9B0F5C004AD4A1 /* RevivalxTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevivalxTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1663401A1A9B0F5C004AD4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1663401B1A9B0F5C004AD4A1 /* RevivalxTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevivalxTableViewTests.swift; sourceTree = "<group>"; };
+		166340251A9B1AAA004AD4A1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		166340271A9B1AF1004AD4A1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		166340361A9B1AFB004AD4A1 /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = HanekeSwift/Haneke.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +129,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166340481A9B1B2A004AD4A1 /* Haneke.framework in Frameworks */,
+				166340431A9B1B22004AD4A1 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +147,8 @@
 		16633FF71A9B0F5C004AD4A1 = {
 			isa = PBXGroup;
 			children = (
+				166340361A9B1AFB004AD4A1 /* Haneke.xcodeproj */,
+				166340271A9B1AF1004AD4A1 /* Alamofire.xcodeproj */,
 				166340021A9B0F5C004AD4A1 /* RevivalxTableView */,
 				166340181A9B0F5C004AD4A1 /* RevivalxTableViewTests */,
 				166340011A9B0F5C004AD4A1 /* Products */,
@@ -77,6 +167,7 @@
 		166340021A9B0F5C004AD4A1 /* RevivalxTableView */ = {
 			isa = PBXGroup;
 			children = (
+				166340251A9B1AAA004AD4A1 /* SwiftyJSON.swift */,
 				166340051A9B0F5C004AD4A1 /* AppDelegate.swift */,
 				166340071A9B0F5C004AD4A1 /* ViewController.swift */,
 				166340091A9B0F5C004AD4A1 /* Main.storyboard */,
@@ -112,6 +203,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		166340281A9B1AF1004AD4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1663402F1A9B1AF1004AD4A1 /* Alamofire.framework */,
+				166340311A9B1AF1004AD4A1 /* Alamofire.framework */,
+				166340331A9B1AF1004AD4A1 /* Alamofire iOS Tests.xctest */,
+				166340351A9B1AF1004AD4A1 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166340371A9B1AFB004AD4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1663403E1A9B1AFB004AD4A1 /* Haneke.framework */,
+				166340401A9B1AFB004AD4A1 /* HanekeTests.xctest */,
+				166340421A9B1AFB004AD4A1 /* HanekeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +234,13 @@
 				16633FFC1A9B0F5C004AD4A1 /* Sources */,
 				16633FFD1A9B0F5C004AD4A1 /* Frameworks */,
 				16633FFE1A9B0F5C004AD4A1 /* Resources */,
+				166340471A9B1B23004AD4A1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				166340461A9B1B23004AD4A1 /* PBXTargetDependency */,
+				1663404B1A9B1B2A004AD4A1 /* PBXTargetDependency */,
 			);
 			name = RevivalxTableView;
 			productName = RevivalxTableView;
@@ -179,6 +294,16 @@
 			mainGroup = 16633FF71A9B0F5C004AD4A1;
 			productRefGroup = 166340011A9B0F5C004AD4A1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 166340281A9B1AF1004AD4A1 /* Products */;
+					ProjectRef = 166340271A9B1AF1004AD4A1 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 166340371A9B1AFB004AD4A1 /* Products */;
+					ProjectRef = 166340361A9B1AFB004AD4A1 /* Haneke.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				16633FFF1A9B0F5C004AD4A1 /* RevivalxTableView */,
@@ -186,6 +311,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1663402F1A9B1AF1004AD4A1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 1663402E1A9B1AF1004AD4A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		166340311A9B1AF1004AD4A1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 166340301A9B1AF1004AD4A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		166340331A9B1AF1004AD4A1 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 166340321A9B1AF1004AD4A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		166340351A9B1AF1004AD4A1 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 166340341A9B1AF1004AD4A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1663403E1A9B1AFB004AD4A1 /* Haneke.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Haneke.framework;
+			remoteRef = 1663403D1A9B1AFB004AD4A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		166340401A9B1AFB004AD4A1 /* HanekeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HanekeTests.xctest;
+			remoteRef = 1663403F1A9B1AFB004AD4A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		166340421A9B1AFB004AD4A1 /* HanekeDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HanekeDemo.app;
+			remoteRef = 166340411A9B1AFB004AD4A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		16633FFE1A9B0F5C004AD4A1 /* Resources */ = {
@@ -212,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166340261A9B1AAA004AD4A1 /* SwiftyJSON.swift in Sources */,
 				166340081A9B0F5C004AD4A1 /* ViewController.swift in Sources */,
 				166340061A9B0F5C004AD4A1 /* AppDelegate.swift in Sources */,
 			);
@@ -232,6 +410,16 @@
 			isa = PBXTargetDependency;
 			target = 16633FFF1A9B0F5C004AD4A1 /* RevivalxTableView */;
 			targetProxy = 166340161A9B0F5C004AD4A1 /* PBXContainerItemProxy */;
+		};
+		166340461A9B1B23004AD4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 166340451A9B1B23004AD4A1 /* PBXContainerItemProxy */;
+		};
+		1663404B1A9B1B2A004AD4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Haneke;
+			targetProxy = 1663404A1A9B1B2A004AD4A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RevivalxTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RevivalxTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

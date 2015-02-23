@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-               BuildableName = "RevivalxTableView.app"
-               BlueprintName = "RevivalxTableView"
-               ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+               BlueprintIdentifier = "A0026E9919C9BFBC004DE0C6"
+               BuildableName = "HanekeDemo.app"
+               BlueprintName = "HanekeDemo"
+               ReferencedContainer = "container:Haneke.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "166340141A9B0F5C004AD4A1"
-               BuildableName = "RevivalxTableViewTests.xctest"
-               BlueprintName = "RevivalxTableViewTests"
-               ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+               BlueprintIdentifier = "A0026EAD19C9BFBC004DE0C6"
+               BuildableName = "HanekeDemoTests.xctest"
+               BlueprintName = "HanekeDemoTests"
+               ReferencedContainer = "container:Haneke.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "166340141A9B0F5C004AD4A1"
-               BuildableName = "RevivalxTableViewTests.xctest"
-               BlueprintName = "RevivalxTableViewTests"
-               ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+               BlueprintIdentifier = "A0026EAD19C9BFBC004DE0C6"
+               BuildableName = "HanekeDemoTests.xctest"
+               BlueprintName = "HanekeDemoTests"
+               ReferencedContainer = "container:Haneke.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-            BuildableName = "RevivalxTableView.app"
-            BlueprintName = "RevivalxTableView"
-            ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+            BlueprintIdentifier = "A0026E9919C9BFBC004DE0C6"
+            BuildableName = "HanekeDemo.app"
+            BlueprintName = "HanekeDemo"
+            ReferencedContainer = "container:Haneke.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-            BuildableName = "RevivalxTableView.app"
-            BlueprintName = "RevivalxTableView"
-            ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+            BlueprintIdentifier = "A0026E9919C9BFBC004DE0C6"
+            BuildableName = "HanekeDemo.app"
+            BlueprintName = "HanekeDemo"
+            ReferencedContainer = "container:Haneke.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-            BuildableName = "RevivalxTableView.app"
-            BlueprintName = "RevivalxTableView"
-            ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+            BlueprintIdentifier = "A0026E9919C9BFBC004DE0C6"
+            BuildableName = "HanekeDemo.app"
+            BlueprintName = "HanekeDemo"
+            ReferencedContainer = "container:Haneke.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

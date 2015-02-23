@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-               BuildableName = "RevivalxTableView.app"
-               BlueprintName = "RevivalxTableView"
-               ReferencedContainer = "container:RevivalxTableView.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "166340141A9B0F5C004AD4A1"
-               BuildableName = "RevivalxTableViewTests.xctest"
-               BlueprintName = "RevivalxTableViewTests"
-               ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+               BlueprintIdentifier = "F8111E0419A951050040E7D1"
+               BuildableName = "iOS Example.app"
+               BlueprintName = "iOS Example"
+               ReferencedContainer = "container:iOS Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "166340141A9B0F5C004AD4A1"
-               BuildableName = "RevivalxTableViewTests.xctest"
-               BlueprintName = "RevivalxTableViewTests"
-               ReferencedContainer = "container:RevivalxTableView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-            BuildableName = "RevivalxTableView.app"
-            BlueprintName = "RevivalxTableView"
-            ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+            BlueprintIdentifier = "F8111E0419A951050040E7D1"
+            BuildableName = "iOS Example.app"
+            BlueprintName = "iOS Example"
+            ReferencedContainer = "container:iOS Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-            BuildableName = "RevivalxTableView.app"
-            BlueprintName = "RevivalxTableView"
-            ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+            BlueprintIdentifier = "F8111E0419A951050040E7D1"
+            BuildableName = "iOS Example.app"
+            BlueprintName = "iOS Example"
+            ReferencedContainer = "container:iOS Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-            BuildableName = "RevivalxTableView.app"
-            BlueprintName = "RevivalxTableView"
-            ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+            BlueprintIdentifier = "F8111E0419A951050040E7D1"
+            BuildableName = "iOS Example.app"
+            BlueprintName = "iOS Example"
+            ReferencedContainer = "container:iOS Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

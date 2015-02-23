@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-               BuildableName = "RevivalxTableView.app"
-               BlueprintName = "RevivalxTableView"
-               ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+               BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
+               BuildableName = "Alamofire.framework"
+               BlueprintName = "Alamofire OSX"
+               ReferencedContainer = "container:Alamofire.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "166340141A9B0F5C004AD4A1"
-               BuildableName = "RevivalxTableViewTests.xctest"
-               BlueprintName = "RevivalxTableViewTests"
-               ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+               BlueprintIdentifier = "F829C6B11A7A94F100A2CD59"
+               BuildableName = "Alamofire OSX Tests.xctest"
+               BlueprintName = "Alamofire OSX Tests"
+               ReferencedContainer = "container:Alamofire.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "166340141A9B0F5C004AD4A1"
-               BuildableName = "RevivalxTableViewTests.xctest"
-               BlueprintName = "RevivalxTableViewTests"
-               ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+               BlueprintIdentifier = "F829C6B11A7A94F100A2CD59"
+               BuildableName = "Alamofire OSX Tests.xctest"
+               BlueprintName = "Alamofire OSX Tests"
+               ReferencedContainer = "container:Alamofire.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-            BuildableName = "RevivalxTableView.app"
-            BlueprintName = "RevivalxTableView"
-            ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+            BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire OSX"
+            ReferencedContainer = "container:Alamofire.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,15 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-            BuildableName = "RevivalxTableView.app"
-            BlueprintName = "RevivalxTableView"
-            ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+            BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire OSX"
+            ReferencedContainer = "container:Alamofire.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,15 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "16633FFF1A9B0F5C004AD4A1"
-            BuildableName = "RevivalxTableView.app"
-            BlueprintName = "RevivalxTableView"
-            ReferencedContainer = "container:RevivalxTableView.xcodeproj">
+            BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire OSX"
+            ReferencedContainer = "container:Alamofire.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
