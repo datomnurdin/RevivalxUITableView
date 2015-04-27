@@ -595,6 +595,7 @@
 				166340211A9B0F5C004AD4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		166340221A9B0F5C004AD4A1 /* Build configuration list for PBXNativeTarget "RevivalxTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +604,7 @@
 				166340241A9B0F5C004AD4A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
