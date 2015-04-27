@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>765AA6DC-EB8D-4BD1-B528-31F5DCF79279</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Haneke</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C93564C1AFB8B50FF58188F21182F5D0EEAD1C3F</key>
+		<string>https://github.com/Haneke/HanekeSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Haneke.playground</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C93564C1AFB8B50FF58188F21182F5D0EEAD1C3F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Haneke/HanekeSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C93564C1AFB8B50FF58188F21182F5D0EEAD1C3F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C93564C1AFB8B50FF58188F21182F5D0EEAD1C3F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HanekeSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
